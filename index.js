@@ -2,9 +2,8 @@
 // grab the input
 const input = document.querySelector('input')
 
-input.addEventListener('click', addingEventListener)
+input.addEventListener('click', function (e{
+    console.log('clicked')
+})
 
 // add an event listener
-let addingEventListener = (e) => {
-    console.log('clicked')
-}
