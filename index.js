@@ -2,7 +2,7 @@
 // grab the input
 const input = document.querySelector('input')
 
-input.addEventListener('click', function (e{
+input.addEventListener('click', function (e){
     console.log('clicked')
 })
 
