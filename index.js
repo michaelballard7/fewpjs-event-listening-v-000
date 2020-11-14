@@ -4,6 +4,6 @@ const input = document.querySelector('input')
 
 input.addEventListener('click', addingEventListener)
 // add an event listener
-function addingEventListener() {
+function addingEventListener(e) {
     console.log('clicked')
 }
