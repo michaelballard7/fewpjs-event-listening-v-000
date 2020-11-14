@@ -5,4 +5,5 @@ const input = document.querySelector('input')
 input.addEventListener('click', addingEventListener)
 // add an event listener
 function addingEventListener() {
+    console.log('clicked')
 }
